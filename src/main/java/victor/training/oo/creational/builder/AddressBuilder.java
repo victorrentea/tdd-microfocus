@@ -12,4 +12,14 @@ public class AddressBuilder {
 	public Address build() {
 		return address;
 	}
+
+	public AddressBuilder withStreetNumber(int streetNumber) {
+		address.setStreetNumber(streetNumber);
+		return this;
+	}
+
+	public AddressBuilder withCity(String city) {
+		address.setCity(city);
+		return this;
+	}
 }
