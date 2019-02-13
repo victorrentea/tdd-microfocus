@@ -23,3 +23,41 @@ Scenario: Initial Score
 	Then The score is "Love-Love" 
 	##
 	
+	
+Scenario: Fifteen Love 
+	Given An empty game 
+	When Player1 scores 1 point 
+	Then The score is "Fifteen-Love" 
+	##
+	
+Scenario: Fifteen Fifteen 
+	Given An empty game 
+	When Player1 scores 1 point 
+	When Player2 scores 1 point 
+	Then The score is "Fifteen-Fifteen" 
+	##
+	
+	
+Scenario: Deuce 
+	Given An empty game 
+	When Player1 scores 3 point 
+	When Player2 scores 3 point 
+	Then The score is "Deuce" 
+	##
+	
+Scenario Outline: Matrix tata! 
+	Given An empty game 
+	When Player1 scores <player1Score> point 
+	When Player2 scores <player2Score> point 
+	Then The score is "<scoreString>" 
+	Examples: 
+		| player1Score | player2Score | scoreString |
+		| 1 | 1 | Fifteen-Fifteen 					|
+		| 1 | 2 | Fifteen-Thirty 					|
+		| 1 | 3 | Fifteen-Forty 					|
+		| 8 | 8 | Deuce 					|
+		| 9 | 8 | Advantage player 1 					|
+		| 7 | 5 | Game Won Player 1 |
+		
+		
+		

@@ -6,7 +6,9 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"classpath:tennis-score.feature"}, glue={"victor.bdd.tennis"})
+@CucumberOptions(
+	features = {"classpath:tennis-score.feature"}, 
+	glue={"victor.bdd.tennis"})
 public class TennisScoreBehaviorTest {
 
 }
