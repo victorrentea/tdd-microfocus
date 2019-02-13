@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36e0ace9-aa8f-48bc-adda-91cd53ac10df" name="Default Changelist" comment="initial2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameParameterizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameTest.java" afterDir="false" />
+    <list default="true" id="36e0ace9-aa8f-48bc-adda-91cd53ac10df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_2_0_2_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/victor/CumPurificLogica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryDiagnosticControlsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-microfocus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-microfocus.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,54 +20,112 @@
     <session id="2144252744">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="21" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="35" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="21" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="35" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="36" />
-          <entry key="java" value="3695" />
-          <entry key="txt" value="9" />
-          <entry key="xml" value="7" />
+          <entry key="dummy" value="48" />
+          <entry key="java" value="5074" />
+          <entry key="txt" value="34" />
+          <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3695" />
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="XML" value="7" />
+          <entry key="JAVA" value="5074" />
+          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameParameterizedTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.674375">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryDiagnosticControls.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="377">
+                  <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/victor/CumPurificLogica.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="702">
+                  <caret line="18" column="24" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#936#937#0" expanded="true" />
+                    <element signature="e#962#963#0" expanded="true" />
+                    <element signature="e#1334#1335#0" expanded="true" />
+                    <element signature="e#1361#1362#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="411">
+                  <caret line="63" column="18" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="18" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryDiagnosticControlsTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="258">
+                  <caret line="48" column="80" lean-forward="true" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,21 +134,32 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>when(client.getOnlineStatus()).thenReturn(true);</find>
+      <find>thenReturn</find>
+      <find>send</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/victor/training/oo/creational/builder/AddressBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/victor/training/oo/creational/builder/BuilderPlay.java" />
         <option value="$PROJECT_DIR$/src/main/java/victor/training/oo/creational/builder/CustomerBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/victor/training/oo/creational/builder/CustomerValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/victor/training/oo/creational/builder/CustomerValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameParameterizedTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/victor/CumPurificLogica.java" />
+        <option value="$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryDiagnosticControls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryDiagnosticControlsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryClient.java" />
       </list>
     </option>
   </component>
@@ -99,8 +170,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="36" />
+    <option name="y" value="7" />
     <option name="width" value="1400" />
     <option name="height" value="870" />
   </component>
@@ -112,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -158,17 +229,37 @@
             </path>
             <path>
               <item name="tdd-microfocus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-microfocus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="victor" type="462c0819:PsiDirectoryNode" />
+              <item name="mocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdd-microfocus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-microfocus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="victor" type="462c0819:PsiDirectoryNode" />
+              <item name="mocks" type="462c0819:PsiDirectoryNode" />
+              <item name="telemetry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdd-microfocus" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549983357909" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550049102736" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -196,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TennisGameParameterizedTest">
+  <component name="RunManager" selected="JUnit.TelemetryDiagnosticControlsTest">
     <configuration name="CustomerValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-microfocus" />
       <extension name="coverage">
@@ -207,6 +298,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="victor.training.oo.creational.builder" />
       <option name="MAIN_CLASS_NAME" value="victor.training.oo.creational.builder.CustomerValidatorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelemetryDiagnosticControlsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-microfocus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="victor.mocks.telemetry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="victor.mocks.telemetry" />
+      <option name="MAIN_CLASS_NAME" value="victor.mocks.telemetry.TelemetryDiagnosticControlsTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,9 +348,11 @@
       <item itemvalue="JUnit.CustomerValidatorTest" />
       <item itemvalue="JUnit.TennisGameTest" />
       <item itemvalue="JUnit.TennisGameParameterizedTest" />
+      <item itemvalue="JUnit.TelemetryDiagnosticControlsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TelemetryDiagnosticControlsTest" />
         <item itemvalue="JUnit.TennisGameParameterizedTest" />
         <item itemvalue="JUnit.TennisGameTest" />
         <item itemvalue="JUnit.CustomerValidatorTest" />
@@ -270,43 +377,50 @@
       <option name="project" value="LOCAL" />
       <updated>1549960455074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TDD + Parameterized Tests">
+      <created>1549983372446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549983372448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 45m 51s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 09h 59m 15s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 47m 50s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 00m 23s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 49m 11s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 00m 29s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 52m 51s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 00m 44s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 54m 04s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 02m 48s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 54m 38s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 02m 59s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 55m 03s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 08m 26s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 55m 09s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 08m 34s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 59m 18s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 12m 12s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TennisGameTest - 2019.02.12 at 15h 59m 58s.xml">
-      <configuration name="TennisGameTest" configurationId="JUnit" />
+    <history-entry file="TelemetryDiagnosticControlsTest - 2019.02.13 at 10h 46m 36s.xml">
+      <configuration name="TelemetryDiagnosticControlsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -314,7 +428,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.235625" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.20875" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -322,7 +436,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.2364706" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.25882354" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -342,7 +456,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.235625" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20875" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -350,7 +464,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.2364706" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.25882354" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -370,7 +484,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="TDD + Parameterized Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD + Parameterized Tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tdd-microfocus.iml">
@@ -387,10 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,21 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/victor/training/oo/creational/builder/CustomerBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,13 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,42 +547,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameParameterizedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/MockitoShowcaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/PowerToTheMasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="411">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/victor/kata/tdd/TennisGameParameterizedTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/victor/CumPurificLogica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="702">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryDiagnosticControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryDiagnosticControlsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="48" column="80" lean-forward="true" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/victor/mocks/telemetry/TelemetryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+          <folding>
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
