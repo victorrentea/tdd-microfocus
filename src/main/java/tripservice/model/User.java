@@ -16,4 +16,20 @@ public class User {
 		friend.friends.add(this);
 	}
 
+	public boolean isFriendWith(User anotherUser) {
+		return friends.contains(anotherUser);
+		
+	//		return user.getFriends().stream().anyMatch(u -> u.equals(loggedUser));
+		
+	//		return user.getFriends().stream().anyMatch(loggedUser::equals);
+		
+	//		for (User friend : user.getFriends()) {
+	//			if (friend.equals(loggedUser)) {
+	//				return true;
+	//			}
+	//		}
+	//		return false;
+		
+	}
+
 }
